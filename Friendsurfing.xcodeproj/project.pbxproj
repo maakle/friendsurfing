@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D7B2E632F1A04B4CE591CD5 /* Pods_Friendsurfing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE23F98D05EF907A615E02F3 /* Pods_Friendsurfing.framework */; };
 		2DC41D1B1DD793DC0004697E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC41D1A1DD793DC0004697E /* AppDelegate.swift */; };
-		2DC41D1D1DD793DC0004697E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC41D1C1DD793DC0004697E /* ViewController.swift */; };
 		2DC41D201DD793DC0004697E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DC41D1E1DD793DC0004697E /* Main.storyboard */; };
 		2DC41D231DD793DC0004697E /* Friendsurfing.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2DC41D211DD793DC0004697E /* Friendsurfing.xcdatamodeld */; };
 		2DC41D251DD793DC0004697E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DC41D241DD793DC0004697E /* Assets.xcassets */; };
 		2DC41D281DD793DC0004697E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DC41D261DD793DC0004697E /* LaunchScreen.storyboard */; };
 		2DC41D331DD793DC0004697E /* FriendsurfingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC41D321DD793DC0004697E /* FriendsurfingTests.swift */; };
 		2DC41D3E1DD793DD0004697E /* FriendsurfingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC41D3D1DD793DD0004697E /* FriendsurfingUITests.swift */; };
+		2DC573571DD7BE2500600392 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC573561DD7BE2500600392 /* WelcomeViewController.swift */; };
+		4D4F8AE99484CAA27B61C279 /* Pods_FriendsurfingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0591006D1C42FA5E87A0D1AA /* Pods_FriendsurfingUITests.framework */; };
+		EFB78437A48397BD20235960 /* Pods_FriendsurfingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29BFCFB9ECD384CBB1FC0984 /* Pods_FriendsurfingTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0591006D1C42FA5E87A0D1AA /* Pods_FriendsurfingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FriendsurfingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29BFCFB9ECD384CBB1FC0984 /* Pods_FriendsurfingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FriendsurfingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DC41D171DD793DC0004697E /* Friendsurfing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Friendsurfing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DC41D1A1DD793DC0004697E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2DC41D1C1DD793DC0004697E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2DC41D1F1DD793DC0004697E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2DC41D221DD793DC0004697E /* Friendsurfing.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Friendsurfing.xcdatamodel; sourceTree = "<group>"; };
 		2DC41D241DD793DC0004697E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +53,14 @@
 		2DC41D391DD793DD0004697E /* FriendsurfingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FriendsurfingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DC41D3D1DD793DD0004697E /* FriendsurfingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsurfingUITests.swift; sourceTree = "<group>"; };
 		2DC41D3F1DD793DD0004697E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DC573561DD7BE2500600392 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		3894F2D54CE03DF743D1EFBE /* Pods-FriendsurfingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FriendsurfingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FriendsurfingTests/Pods-FriendsurfingTests.release.xcconfig"; sourceTree = "<group>"; };
+		3AB9AC5136D728D8101C540D /* Pods-Friendsurfing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Friendsurfing.release.xcconfig"; path = "Pods/Target Support Files/Pods-Friendsurfing/Pods-Friendsurfing.release.xcconfig"; sourceTree = "<group>"; };
+		C488717F703AFA9E5DEF44F1 /* Pods-Friendsurfing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Friendsurfing.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Friendsurfing/Pods-Friendsurfing.debug.xcconfig"; sourceTree = "<group>"; };
+		D86D1E24D16181C2B4876423 /* Pods-FriendsurfingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FriendsurfingUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FriendsurfingUITests/Pods-FriendsurfingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DE23F98D05EF907A615E02F3 /* Pods_Friendsurfing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Friendsurfing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFA18388055AA988F7D583B5 /* Pods-FriendsurfingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FriendsurfingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FriendsurfingTests/Pods-FriendsurfingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E79EF45DD0AE4CF3D644B216 /* Pods-FriendsurfingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FriendsurfingUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FriendsurfingUITests/Pods-FriendsurfingUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D7B2E632F1A04B4CE591CD5 /* Pods_Friendsurfing.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFB78437A48397BD20235960 /* Pods_FriendsurfingTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D4F8AE99484CAA27B61C279 /* Pods_FriendsurfingUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0DB83925E4F3934089E6522E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE23F98D05EF907A615E02F3 /* Pods_Friendsurfing.framework */,
+				29BFCFB9ECD384CBB1FC0984 /* Pods_FriendsurfingTests.framework */,
+				0591006D1C42FA5E87A0D1AA /* Pods_FriendsurfingUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		2DC41D0E1DD793DC0004697E = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +108,8 @@
 				2DC41D311DD793DC0004697E /* FriendsurfingTests */,
 				2DC41D3C1DD793DD0004697E /* FriendsurfingUITests */,
 				2DC41D181DD793DC0004697E /* Products */,
+				A6CBAA27AF56377F54FB9A67 /* Pods */,
+				0DB83925E4F3934089E6522E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,12 +127,12 @@
 			isa = PBXGroup;
 			children = (
 				2DC41D1A1DD793DC0004697E /* AppDelegate.swift */,
-				2DC41D1C1DD793DC0004697E /* ViewController.swift */,
 				2DC41D1E1DD793DC0004697E /* Main.storyboard */,
 				2DC41D241DD793DC0004697E /* Assets.xcassets */,
 				2DC41D261DD793DC0004697E /* LaunchScreen.storyboard */,
 				2DC41D291DD793DC0004697E /* Info.plist */,
 				2DC41D211DD793DC0004697E /* Friendsurfing.xcdatamodeld */,
+				2DC573561DD7BE2500600392 /* WelcomeViewController.swift */,
 			);
 			path = Friendsurfing;
 			sourceTree = "<group>";
@@ -128,6 +155,19 @@
 			path = FriendsurfingUITests;
 			sourceTree = "<group>";
 		};
+		A6CBAA27AF56377F54FB9A67 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C488717F703AFA9E5DEF44F1 /* Pods-Friendsurfing.debug.xcconfig */,
+				3AB9AC5136D728D8101C540D /* Pods-Friendsurfing.release.xcconfig */,
+				DFA18388055AA988F7D583B5 /* Pods-FriendsurfingTests.debug.xcconfig */,
+				3894F2D54CE03DF743D1EFBE /* Pods-FriendsurfingTests.release.xcconfig */,
+				D86D1E24D16181C2B4876423 /* Pods-FriendsurfingUITests.debug.xcconfig */,
+				E79EF45DD0AE4CF3D644B216 /* Pods-FriendsurfingUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2DC41D421DD793DD0004697E /* Build configuration list for PBXNativeTarget "Friendsurfing" */;
 			buildPhases = (
+				B2DBFFD5E116BBA4FEE4EECA /* [CP] Check Pods Manifest.lock */,
 				2DC41D131DD793DC0004697E /* Sources */,
 				2DC41D141DD793DC0004697E /* Frameworks */,
 				2DC41D151DD793DC0004697E /* Resources */,
+				85F7F4D2D7EFF0D7E355B29F /* [CP] Embed Pods Frameworks */,
+				A7E0EC7079D087E224C14890 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2DC41D451DD793DD0004697E /* Build configuration list for PBXNativeTarget "FriendsurfingTests" */;
 			buildPhases = (
+				EAE08A5E1A2B58F16C6F88F2 /* [CP] Check Pods Manifest.lock */,
 				2DC41D2A1DD793DC0004697E /* Sources */,
 				2DC41D2B1DD793DC0004697E /* Frameworks */,
 				2DC41D2C1DD793DC0004697E /* Resources */,
+				FD6A58317DBD2CAAA8019797 /* [CP] Embed Pods Frameworks */,
+				588204904B5B6EDEAEEF5364 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2DC41D481DD793DD0004697E /* Build configuration list for PBXNativeTarget "FriendsurfingUITests" */;
 			buildPhases = (
+				94924A7CA04F32E91DC129F5 /* [CP] Check Pods Manifest.lock */,
 				2DC41D351DD793DD0004697E /* Sources */,
 				2DC41D361DD793DD0004697E /* Frameworks */,
 				2DC41D371DD793DD0004697E /* Resources */,
+				8A543F9B3BA1A82DDF84909B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -260,13 +308,136 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		588204904B5B6EDEAEEF5364 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FriendsurfingTests/Pods-FriendsurfingTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85F7F4D2D7EFF0D7E355B29F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Friendsurfing/Pods-Friendsurfing-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A543F9B3BA1A82DDF84909B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FriendsurfingUITests/Pods-FriendsurfingUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94924A7CA04F32E91DC129F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A7E0EC7079D087E224C14890 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Friendsurfing/Pods-Friendsurfing-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2DBFFD5E116BBA4FEE4EECA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EAE08A5E1A2B58F16C6F88F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FD6A58317DBD2CAAA8019797 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FriendsurfingTests/Pods-FriendsurfingTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2DC41D131DD793DC0004697E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DC573571DD7BE2500600392 /* WelcomeViewController.swift in Sources */,
 				2DC41D231DD793DC0004697E /* Friendsurfing.xcdatamodeld in Sources */,
-				2DC41D1D1DD793DC0004697E /* ViewController.swift in Sources */,
 				2DC41D1B1DD793DC0004697E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,10 +588,12 @@
 		};
 		2DC41D431DD793DD0004697E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C488717F703AFA9E5DEF44F1 /* Pods-Friendsurfing.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 59Q8U3U6SS;
 				INFOPLIST_FILE = Friendsurfing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MK.Friendsurfing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -430,10 +603,12 @@
 		};
 		2DC41D441DD793DD0004697E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AB9AC5136D728D8101C540D /* Pods-Friendsurfing.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 59Q8U3U6SS;
 				INFOPLIST_FILE = Friendsurfing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MK.Friendsurfing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -443,6 +618,7 @@
 		};
 		2DC41D461DD793DD0004697E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFA18388055AA988F7D583B5 /* Pods-FriendsurfingTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -458,6 +634,7 @@
 		};
 		2DC41D471DD793DD0004697E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3894F2D54CE03DF743D1EFBE /* Pods-FriendsurfingTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -473,6 +650,7 @@
 		};
 		2DC41D491DD793DD0004697E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D86D1E24D16181C2B4876423 /* Pods-FriendsurfingUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 59Q8U3U6SS;
@@ -487,6 +665,7 @@
 		};
 		2DC41D4A1DD793DD0004697E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E79EF45DD0AE4CF3D644B216 /* Pods-FriendsurfingUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 59Q8U3U6SS;
@@ -518,6 +697,7 @@
 				2DC41D441DD793DD0004697E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2DC41D451DD793DD0004697E /* Build configuration list for PBXNativeTarget "FriendsurfingTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +706,7 @@
 				2DC41D471DD793DD0004697E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2DC41D481DD793DD0004697E /* Build configuration list for PBXNativeTarget "FriendsurfingUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +715,7 @@
 				2DC41D4A1DD793DD0004697E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

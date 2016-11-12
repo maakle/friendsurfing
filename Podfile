@@ -6,7 +6,9 @@ target 'Friendsurfing' do
   use_frameworks!
 
   # Pods for Friendsurfing
-
+	
+pod 'FBSDKCoreKit'
+pod 'FBSDKLoginKit'
 
 
   target 'FriendsurfingTests' do
