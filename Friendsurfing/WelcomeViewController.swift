@@ -11,7 +11,7 @@ import FBSDKCoreKit
 import FBSDKLoginKit
 
 class WelcomeViewController: UIViewController, FBSDKLoginButtonDelegate {
-
+    
     //Outlets
     @IBOutlet weak var newFBLoginButton: FBSDKLoginButton!
     
@@ -20,16 +20,20 @@ class WelcomeViewController: UIViewController, FBSDKLoginButtonDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         self.newFBLoginButton.delegate = self
         self.newFBLoginButton.readPermissions = ["public_profile", "email", "user_friends"]
         designFBButton()
         
         if (FBSDKAccessToken.current() != nil) {
-            // TODO:Token is already available.
+            // User is logged in, do work such as go to next view controller. 
+            
+            
+            
         }
         
     }
+    
     
     func loginButton(_ loginButton: FBSDKLoginButton!, didCompleteWith result: FBSDKLoginManagerLoginResult!, error: Error?) {
         if error != nil {
@@ -38,12 +42,21 @@ class WelcomeViewController: UIViewController, FBSDKLoginButtonDelegate {
             return
         }
         
-        //handle data and push to new ViewController
+        print("PENIS: \(result.token)")
         
-        
-        let mainStoryBoard = UIStoryboard(name: "Main", bundle: nil)
-        let menuViewController = mainStoryBoard.instantiateViewController(withIdentifier: "worldMapNavigationController")
-        self.present(menuViewController, animated: true, completion: nil)
+        if((FBSDKAccessToken.current()) != nil){
+            FBSDKGraphRequest(graphPath: "me", parameters: ["fields": "id, name, first_name, last_name, email"]).start(completionHandler: { (connection, result, error) -> Void in
+                if (error == nil){
+                    
+                    print("BITCH")
+                    print(result)
+                    
+                    let mainStoryBoard = UIStoryboard(name: "Main", bundle: nil)
+                    let menuViewController = mainStoryBoard.instantiateViewController(withIdentifier: "worldMapNavigationController")
+                    self.present(menuViewController, animated: true, completion: nil)
+                }
+            })
+        }
         
     }
     
@@ -52,7 +65,7 @@ class WelcomeViewController: UIViewController, FBSDKLoginButtonDelegate {
     }
     
     func loginButtonDidLogOut(_ loginButton: FBSDKLoginButton!) {
-//        try! FIRAuth.auth()?.signOut()
+        //        try! FIRAuth.auth()?.signOut()
         print("User has been logged out!")
     }
     
@@ -60,15 +73,15 @@ class WelcomeViewController: UIViewController, FBSDKLoginButtonDelegate {
         newFBLoginButton.layer.cornerRadius = 8
     }
     
-
+    
     /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+     // MARK: - Navigation
+     
+     // In a storyboard-based application, you will often want to do a little preparation before navigation
+     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+     // Get the new view controller using segue.destinationViewController.
+     // Pass the selected object to the new view controller.
+     }
+     */
+    
 }
