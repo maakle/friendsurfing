@@ -16,6 +16,7 @@
 		2DC41D331DD793DC0004697E /* FriendsurfingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC41D321DD793DC0004697E /* FriendsurfingTests.swift */; };
 		2DC41D3E1DD793DD0004697E /* FriendsurfingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC41D3D1DD793DD0004697E /* FriendsurfingUITests.swift */; };
 		2DC573571DD7BE2500600392 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC573561DD7BE2500600392 /* WelcomeViewController.swift */; };
+		2DC573591DD7C87500600392 /* WorldmapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC573581DD7C87500600392 /* WorldmapViewController.swift */; };
 		4D4F8AE99484CAA27B61C279 /* Pods_FriendsurfingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0591006D1C42FA5E87A0D1AA /* Pods_FriendsurfingUITests.framework */; };
 		EFB78437A48397BD20235960 /* Pods_FriendsurfingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29BFCFB9ECD384CBB1FC0984 /* Pods_FriendsurfingTests.framework */; };
 /* End PBXBuildFile section */
@@ -54,6 +55,7 @@
 		2DC41D3D1DD793DD0004697E /* FriendsurfingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsurfingUITests.swift; sourceTree = "<group>"; };
 		2DC41D3F1DD793DD0004697E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2DC573561DD7BE2500600392 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		2DC573581DD7C87500600392 /* WorldmapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorldmapViewController.swift; sourceTree = "<group>"; };
 		3894F2D54CE03DF743D1EFBE /* Pods-FriendsurfingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FriendsurfingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FriendsurfingTests/Pods-FriendsurfingTests.release.xcconfig"; sourceTree = "<group>"; };
 		3AB9AC5136D728D8101C540D /* Pods-Friendsurfing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Friendsurfing.release.xcconfig"; path = "Pods/Target Support Files/Pods-Friendsurfing/Pods-Friendsurfing.release.xcconfig"; sourceTree = "<group>"; };
 		C488717F703AFA9E5DEF44F1 /* Pods-Friendsurfing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Friendsurfing.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Friendsurfing/Pods-Friendsurfing.debug.xcconfig"; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 				2DC41D291DD793DC0004697E /* Info.plist */,
 				2DC41D211DD793DC0004697E /* Friendsurfing.xcdatamodeld */,
 				2DC573561DD7BE2500600392 /* WelcomeViewController.swift */,
+				2DC573581DD7C87500600392 /* WorldmapViewController.swift */,
 			);
 			path = Friendsurfing;
 			sourceTree = "<group>";
@@ -436,6 +439,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DC573591DD7C87500600392 /* WorldmapViewController.swift in Sources */,
 				2DC573571DD7BE2500600392 /* WelcomeViewController.swift in Sources */,
 				2DC41D231DD793DC0004697E /* Friendsurfing.xcdatamodeld in Sources */,
 				2DC41D1B1DD793DC0004697E /* AppDelegate.swift in Sources */,

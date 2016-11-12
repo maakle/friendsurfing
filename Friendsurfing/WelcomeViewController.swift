@@ -15,6 +15,9 @@ class WelcomeViewController: UIViewController, FBSDKLoginButtonDelegate {
     //Outlets
     @IBOutlet weak var newFBLoginButton: FBSDKLoginButton!
     
+    var loginManager = FBSDKLoginManager()
+    //TODO: process error or result
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -23,20 +26,25 @@ class WelcomeViewController: UIViewController, FBSDKLoginButtonDelegate {
         designFBButton()
         
         if (FBSDKAccessToken.current() != nil) {
-            // User is logged in, do work such as go to next view controller.
-            print("logged in")
+            // TODO:Token is already available.
         }
         
-        // Do any additional setup after loading the view.
     }
     
     func loginButton(_ loginButton: FBSDKLoginButton!, didCompleteWith result: FBSDKLoginManagerLoginResult!, error: Error?) {
         if error != nil {
             print(error!.localizedDescription)
+            
             return
         }
         
-        print("BITCH")
+        //handle data and push to new ViewController
+        
+        
+        let mainStoryBoard = UIStoryboard(name: "Main", bundle: nil)
+        let menuViewController = mainStoryBoard.instantiateViewController(withIdentifier: "worldMapNavigationController")
+        self.present(menuViewController, animated: true, completion: nil)
+        
     }
     
     func loginButtonWillLogin(_ loginButton: FBSDKLoginButton!) -> Bool {

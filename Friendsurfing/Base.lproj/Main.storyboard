@@ -53,6 +53,57 @@
             </objects>
             <point key="canvasLocation" x="-18" y="164"/>
         </scene>
+        <!--Worldmap View Controller-->
+        <scene sceneID="Yjn-1X-Vmr">
+            <objects>
+                <viewController id="u5y-vr-eWW" customClass="WorldmapViewController" customModule="Friendsurfing" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="u6f-GN-7WJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="M0v-ag-zol"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="HFi-eV-TSN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SQe-a2-8hd">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="SQe-a2-8hd" firstAttribute="leading" secondItem="HFi-eV-TSN" secondAttribute="leading" id="PrM-wJ-ath"/>
+                            <constraint firstItem="SQe-a2-8hd" firstAttribute="top" secondItem="HFi-eV-TSN" secondAttribute="top" id="XnI-0Q-PPW"/>
+                            <constraint firstAttribute="trailing" secondItem="SQe-a2-8hd" secondAttribute="trailing" id="ctB-EI-Tc5"/>
+                            <constraint firstItem="M0v-ag-zol" firstAttribute="top" secondItem="SQe-a2-8hd" secondAttribute="bottom" id="tN0-sM-SQJ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="55B-gv-Y7j"/>
+                    <connections>
+                        <outlet property="googleMapsContainer" destination="SQe-a2-8hd" id="pIc-sd-mhU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="myl-4x-xng" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1892" y="162.3688155922039"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Gjg-fd-gQO">
+            <objects>
+                <navigationController storyboardIdentifier="worldMapNavigationController" automaticallyAdjustsScrollViewInsets="NO" id="p4k-do-EjR" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="zOZ-ap-d8m">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="u5y-vr-eWW" kind="relationship" relationship="rootViewController" id="L17-ql-R39"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dxz-SS-bmn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="952.79999999999995" y="162.3688155922039"/>
+        </scene>
     </scenes>
     <resources>
         <image name="intro_background" width="2221" height="3600"/>
