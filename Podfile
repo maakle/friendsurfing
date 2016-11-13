@@ -9,6 +9,8 @@ target 'Friendsurfing' do
 	
 pod 'FBSDKCoreKit'
 pod 'FBSDKLoginKit'
+pod 'GoogleMaps'
+pod 'GooglePlaces'
 
 
   target 'FriendsurfingTests' do
